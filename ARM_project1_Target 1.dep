@@ -1,0 +1,26 @@
+Dependencies for Project 'ARM_project1', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x559CFDE8)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips--pd "__UVISION_VERSION SETA 526"--list .\listings\startup.lst --xref -o .\arm_p1\startup.o --depend .\arm_p1\startup.d)
+F (.\ARM_P1\ADC_driver.c)(0x6ADDADC9)(--c99 --gnu -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork --split_sections-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="526"-o .\arm_p1\adc_driver.o --omf_browse .\arm_p1\adc_driver.crf --depend .\arm_p1\adc_driver.d)
+I (C:\Keil_v5\ARM\INC\Philips\lpc21xx.h)(0x559CFE30)
+I (ARM_P1\headers.h)(0x6ADDA74E)
+F (.\ARM_P1\flame_driver.c)(0x6ADDAA27)(--c99 --gnu -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork --split_sections-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="526"-o .\arm_p1\flame_driver.o --omf_browse .\arm_p1\flame_driver.crf --depend .\arm_p1\flame_driver.d)
+I (ARM_P1\headers.h)(0x6ADDA74E)
+I (C:\Keil_v5\ARM\INC\Philips\lpc21xx.h)(0x559CFE30)
+F (.\ARM_P1\lcd_4bitdriver.c)(0x6ADDAC7D)(--c99 --gnu -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork --split_sections-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="526"-o .\arm_p1\lcd_4bitdriver.o --omf_browse .\arm_p1\lcd_4bitdriver.crf --depend .\arm_p1\lcd_4bitdriver.d)
+I (C:\Keil_v5\ARM\INC\Philips\lpc21xx.h)(0x559CFE30)
+I (ARM_P1\headers.h)(0x6ADDA74E)
+F (.\ARM_P1\led_driver.c)(0x6ADDAA28)(--c99 --gnu -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork --split_sections-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="526"-o .\arm_p1\led_driver.o --omf_browse .\arm_p1\led_driver.crf --depend .\arm_p1\led_driver.d)
+I (C:\Keil_v5\ARM\INC\Philips\lpc21xx.h)(0x559CFE30)
+I (ARM_P1\headers.h)(0x6ADDA74E)
+F (.\ARM_P1\pir_driver.c)(0x6ADDAAA5)(--c99 --gnu -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork --split_sections-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="526"-o .\arm_p1\pir_driver.o --omf_browse .\arm_p1\pir_driver.crf --depend .\arm_p1\pir_driver.d)
+I (C:\Keil_v5\ARM\INC\Philips\lpc21xx.h)(0x559CFE30)
+I (ARM_P1\headers.h)(0x6ADDA74E)
+F (.\ARM_P1\safety_main.c)(0x6ADDAD77)(--c99 --gnu -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork --split_sections-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="526"-o .\arm_p1\safety_main.o --omf_browse .\arm_p1\safety_main.crf --depend .\arm_p1\safety_main.d)
+I (C:\Keil_v5\ARM\INC\Philips\lpc21xx.h)(0x559CFE30)
+I (ARM_P1\headers.h)(0x6ADDA74E)
+F (.\ARM_P1\uart0_driver.c)(0x6ADDAA8D)(--c99 --gnu -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork --split_sections-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="526"-o .\arm_p1\uart0_driver.o --omf_browse .\arm_p1\uart0_driver.crf --depend .\arm_p1\uart0_driver.d)
+I (C:\Keil_v5\ARM\INC\Philips\lpc21xx.h)(0x559CFE30)
+I (ARM_P1\headers.h)(0x6ADDA74E)
+F (.\ARM_P1\headers.h)(0x6ADDA74E)()
+F (.\keil\delay.c)(0x6ADCEA25)(--c99 --gnu -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork --split_sections-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="526"-o .\arm_p1\delay.o --omf_browse .\arm_p1\delay.crf --depend .\arm_p1\delay.d)
+I (C:\Keil_v5\ARM\INC\Philips\lpc21xx.h)(0x559CFE30)

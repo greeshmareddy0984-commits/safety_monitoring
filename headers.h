@@ -1,0 +1,30 @@
+#include<lpc21xx.h>
+ void delay_ms(unsigned int );
+ void flame_init(void);
+ unsigned char flame_read(void);
+ void led_init(void);
+ void send_temperature_uart(float );
+ void led_off(void);
+ void led_green(void);
+ void led_yellow(void);
+ void led_red(void);
+ void led_update(unsigned char , unsigned char );
+ void delay_ms(unsigned int );
+ void lcd_data(unsigned char );
+ void lcd_cmd(unsigned char );
+ void uart0_init(unsigned int );
+ void uart0_tx(unsigned char );
+ void uart0_tx_string(char *);
+ void uart0_binary(int );
+ void uart0_integer(int );
+ unsigned int adc_read(unsigned int );
+ void adc_init(void);
+ void lcd_string(char *);
+void pir_init(void);
+ unsigned char pir_read(void);
+ void display_temperature_lcd(float );
+ void lcd_init(void);
+ void lcd_float(float );
+ void uart0_float(float );
+ void lcd_integer(int );
+ 

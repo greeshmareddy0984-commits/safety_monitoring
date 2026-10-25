@@ -1,0 +1,14 @@
+--cpu ARM7TDMI
+".\arm_p1\startup.o"
+".\arm_p1\adc_driver.o"
+".\arm_p1\flame_driver.o"
+".\arm_p1\lcd_4bitdriver.o"
+".\arm_p1\led_driver.o"
+".\arm_p1\pir_driver.o"
+".\arm_p1\safety_main.o"
+".\arm_p1\uart0_driver.o"
+".\arm_p1\delay.o"
+--strict --scatter ".\ARM_P1\ARM_P1hex.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\ARM_P1hex.map" -o .\ARM_P1\ARM_P1hex.axf
